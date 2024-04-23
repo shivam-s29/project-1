@@ -1,0 +1,7 @@
+*internet gateway*
+
+#Creating Internet Gateway
+
+ resouce "aws_internet_gateway" "demogateway" {
+ vpc_id = aws_vpc.demovpc.id
+}
