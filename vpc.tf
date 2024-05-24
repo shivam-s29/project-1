@@ -1,5 +1,3 @@
-*vpc.tf*
-
 #Creating vpc
 
 resource "aws_vpc" "demovpc" {
